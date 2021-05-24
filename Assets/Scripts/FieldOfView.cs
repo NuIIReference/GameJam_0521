@@ -80,9 +80,7 @@ public class FieldOfView : MonoBehaviour
                         targetColor = targetMaterial.color;
                         targetColor.a = 255;
                         setAlpha = true;
-                    }                   
-
-                    //Debug.Log("Target Visable");
+                    }
                 }
             }
         }
@@ -93,7 +91,6 @@ public class FieldOfView : MonoBehaviour
         if (setAlpha && targetMaterial.color.a < 1)
         {
             targetMaterial.color = Color.Lerp(targetMaterial.color, targetColor, fadeTime * Time.deltaTime);
-            Debug.Log("Fading");
             if (targetMaterial.color.a >= 255)
             {
                 setAlpha = false;

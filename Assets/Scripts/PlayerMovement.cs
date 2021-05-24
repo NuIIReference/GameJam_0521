@@ -54,15 +54,25 @@ public class PlayerMovement : MonoBehaviour
         Move();
     }
 
+    private void Update()
+    {
+        isJumping = Input.GetButtonDown("Jump");
+
+        isWalking = !Input.GetButton("Fire3");
+
+        //Check if Grounded
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        //Apply jump if grounded
+        if (isJumping && isGrounded)
+            velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+    }
+
     void GetInput(out float speed)
     {
         //Get Inputs
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
-
-        isJumping = Input.GetButtonDown("Jump");
-
-        isWalking = !Input.GetButton("Fire3");
 
         speed = isWalking ? walkSpeed : sprintSpeed;
     }
@@ -70,9 +80,6 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         GetInput(out float speed);
-
-        //Check if Grounded
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         //If grounded reset velocity
         if (isGrounded && velocity.y < 0)
@@ -85,11 +92,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime); 
 
-        //Apply jump if grounded
-        if (isJumping && isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-        }
+        
 
         //Apply Gravity
         velocity.y += gravity * Time.deltaTime;
