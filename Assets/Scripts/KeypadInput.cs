@@ -40,12 +40,10 @@ public class KeypadInput : MonoBehaviour
         if (isActive)
         {
             textBox.SetActive(true);
-            //EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(textBox);
         }
         else
         {
-            EventSystem.current.SetSelectedGameObject(null);
             textBox.SetActive(false);
         }
     }
@@ -64,6 +62,8 @@ public class KeypadInput : MonoBehaviour
             textInput.text = null;
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(textBox);
+            if (!textBox.activeInHierarchy)
+                EventSystem.current.SetSelectedGameObject(null);
         }
     }
 }

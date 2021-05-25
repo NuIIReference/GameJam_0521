@@ -5,18 +5,32 @@ using UnityEngine;
 public class OpenKeypad : MonoBehaviour
 {
     private KeypadInput keypadInput;
-    [SerializeField] private MeshRenderer meshRenderer;
+    private int highlightLayer;
+    private int defaultLayer;
+
+    private void Start()
+    {
+        defaultLayer = LayerMask.NameToLayer("Default");
+        highlightLayer = LayerMask.NameToLayer("Highlight");
+        keypadInput = GetComponent<KeypadInput>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
+            gameObject.layer = highlightLayer;
             keypadInput.canInteract = true;
-        meshRenderer.material.SetFloat("_EmissiveIntensity", 10);
+        }   
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
+            gameObject.layer = defaultLayer;
             keypadInput.canInteract = false;
+            keypadInput.isActive = false;
+        }
     }
 }
