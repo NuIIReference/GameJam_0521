@@ -66,8 +66,6 @@ public class PlayerMovement : MonoBehaviour
         //Apply jump if grounded
         if (isJumping && isGrounded)
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-
-        StepProgressCycle(isWalking ? walkSpeed : sprintSpeed);
     }
 
     void GetInput(out float speed)
@@ -99,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         //Apply Gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-        
+        StepProgressCycle(speed);
     }
 
     //Apply force to physics object when player collides with them
