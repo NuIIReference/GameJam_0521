@@ -230,8 +230,8 @@ public class Flashlight : MonoBehaviour
     //Play a sound clip when the flashlight turns on, off, or a new battery is inserted
     private void PlaySFX(AudioClip clip)
     {
-        if (clip is null)
-            return;
+        //if (clip == null)
+        //    return;
         flashlightAudioSource.clip = clip;
         flashlightAudioSource.Play();
     }
@@ -304,7 +304,9 @@ public class Flashlight : MonoBehaviour
         {
             flashlightAudioSource = GetComponent<AudioSource>();
             if (flashlightAudioSource == null)
-                gameObject.AddComponent<AudioSource>();
+            {
+                flashlightAudioSource = gameObject.AddComponent<AudioSource>();
+            }
             flashlightAudioSource.playOnAwake = false;
         }
 
