@@ -21,6 +21,7 @@ public class OpenKeypad : MonoBehaviour
         {
             gameObject.layer = highlightLayer;
             keypadInput.canInteract = true;
+            Debug.Log("Found Player");
         }   
     }
 

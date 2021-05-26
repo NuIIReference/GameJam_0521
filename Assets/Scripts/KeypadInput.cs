@@ -8,17 +8,25 @@ using System;
 public class KeypadInput : MonoBehaviour
 {
     [SerializeField] private GameObject textBox;
-    [SerializeField] private InputField textInput;
+    private InputField textInput;
     private string code = "1408";
     [HideInInspector] public bool isActive = false;
     [HideInInspector] public bool canInteract = false;
+    [SerializeField] private GameObject doorToOpen;
+    [SerializeField] private float doorOpenSpeed = 5f;
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioClip[] toneClips;
+    private bool openDoor;
 
     private void Start()
     {
+        textInput = textBox.GetComponent<InputField>();
         textInput.contentType = InputField.ContentType.Pin;
         textBox.SetActive(false);
         InputField.SubmitEvent submitEvent = new InputField.SubmitEvent();
         submitEvent.AddListener(CompareString);
+        //InputField.OnChangeEvent onChange = new InputField.OnChangeEvent();
+        //onChange.AddListener(PlayKeyTone);
         textInput.onEndEdit = submitEvent;
     }
 
@@ -26,6 +34,7 @@ public class KeypadInput : MonoBehaviour
     {
         GetInput();
         ActivateTextBox();
+        OpenDoor();
     }
 
     void GetInput()
@@ -53,7 +62,7 @@ public class KeypadInput : MonoBehaviour
         if (String.Equals(input, code))
         {
             isActive = false;
-            //Open the Door
+            openDoor = true;
             Debug.Log("The code is right : " + input);
         }
         else
@@ -65,5 +74,26 @@ public class KeypadInput : MonoBehaviour
             if (!textBox.activeInHierarchy)
                 EventSystem.current.SetSelectedGameObject(null);
         }
+    }
+
+    void OpenDoor()
+    {
+        if (openDoor)
+        {
+            doorToOpen.transform.Rotate(Vector3.up * doorOpenSpeed * Time.deltaTime);
+            if (doorToOpen.transform.localEulerAngles.y >= 90)
+            {
+                openDoor = false;
+                //doorToOpen.transform.localRotation = Quaternion.Slerp(doorToOpen.transform.localRotation, Quaternion.Euler(Vector3.up * 90), doorOpenSpeed * Time.deltaTime);
+            }
+        }
+            
+    }
+
+    public void PlayKeyTone()
+    {
+        int clip = UnityEngine.Random.Range(0, toneClips.Length);
+        source.clip = toneClips[clip];
+        source.PlayOneShot(source.clip); 
     }
 }
