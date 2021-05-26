@@ -15,11 +15,11 @@ F:/GameJam_0521
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49953
+58201
 Successfully changed project path to: F:/GameJam_0521
 F:/GameJam_0521
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -36,939 +36,181 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002239 seconds.
+Registered in 0.002219 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll on disk for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll
 Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
+- Completed reload, in  1.111 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001584 seconds.
+Registered in 0.001367 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
+- Completed reload, in  1.045 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2799 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.9 MB.
-System memory in use after: 132.1 MB.
+System memory in use before: 132.1 MB.
+System memory in use after: 132.2 MB.
 
 Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3238.
-Total: 2.624400 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.024000 ms  DeleteObjects: 0.182100 ms)
+Total: 3.070700 ms (FindLiveObjects: 0.435700 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.351500 ms  DeleteObjects: 0.207600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Imports/tyler's scene stuff
-  artifactKey: Guid(4f957d6afde2af14894c0cd251657c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff using Guid(4f957d6afde2af14894c0cd251657c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b848e3759daaa4042289909b5127dad') in 0.008077 seconds
-  Import took 0.012265 seconds .
+  path: Assets/Imports/tyler's scene stuff/spin wheel 2.mat
+  artifactKey: Guid(a3fa418684465ea4caf5bd3b63d6b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/spin wheel 2.mat using Guid(a3fa418684465ea4caf5bd3b63d6b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9b69775bcb2ab354b61a6d9645161e') in 0.180673 seconds
+  Import took 0.199763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.730873 seconds.
-  path: Assets/Imports/tyler's scene stuff/door frame_Base_Color.png
-  artifactKey: Guid(d593397abb7eae14db670a9b97fce6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/door frame_Base_Color.png using Guid(d593397abb7eae14db670a9b97fce6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f129666dce660aa9b4eb21ab323cfc') in 0.088168 seconds
-  Import took 0.093100 seconds .
+  Time since last request: 0.000469 seconds.
+  path: Assets/Imports/tyler's scene stuff/teeth.mat
+  artifactKey: Guid(ccafc8a17a462ed4da56442ab40a1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/teeth.mat using Guid(ccafc8a17a462ed4da56442ab40a1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73237cd611f534f1f537ab394fc8d138') in 0.012654 seconds
+  Import took 0.016778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Imports/tyler's scene stuff/pillar 1_Base_Color.png
-  artifactKey: Guid(bb36f9532d9e52a49acb0ff393798427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pillar 1_Base_Color.png using Guid(bb36f9532d9e52a49acb0ff393798427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292d9bbda47ad49f630dd65904b266f8') in 0.015223 seconds
-  Import took 0.020083 seconds .
+  Time since last request: 22.394729 seconds.
+  path: Assets/Imports/tyler's scene stuff/car roof_Base_Color.png
+  artifactKey: Guid(e05260e232ec31f41babfb19c3e22739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car roof_Base_Color.png using Guid(e05260e232ec31f41babfb19c3e22739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4f671108317026b3128b02aef6471f') in 0.067336 seconds
+  Import took 0.075591 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Imports/tyler's scene stuff/entry wall 2_Base_Color.png
-  artifactKey: Guid(8c7d8d5c8d5d420409e0197b0056335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/entry wall 2_Base_Color.png using Guid(8c7d8d5c8d5d420409e0197b0056335c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce5aecc4ea7ea15ff1d1d6b52003c74') in 0.009564 seconds
-  Import took 0.013901 seconds .
+  Time since last request: 0.000489 seconds.
+  path: Assets/Imports/tyler's scene stuff/car floor_Base_Color.png
+  artifactKey: Guid(fe834104dac22354591cc5a3dc8090cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car floor_Base_Color.png using Guid(fe834104dac22354591cc5a3dc8090cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfea36f4022b3071c4136912ddf9681') in 0.020925 seconds
+  Import took 0.026305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 11.png
-  artifactKey: Guid(f4232018ecf1fe246b368acf04050493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 11.png using Guid(f4232018ecf1fe246b368acf04050493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2f8fcff7e2a7e23824befe77e90b88') in 0.014472 seconds
-  Import took 0.018961 seconds .
+  Time since last request: 5.870622 seconds.
+  path: Assets/Imports/tyler's scene stuff/car roof and floor.fbx
+  artifactKey: Guid(7018fc1422b28014c9bf1eda75af1c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car roof and floor.fbx using Guid(7018fc1422b28014c9bf1eda75af1c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd4036e44c82484ebcdaa2303303b53') in 0.173437 seconds
+  Import took 0.178551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 1_Base_Color.png
-  artifactKey: Guid(7ec0c4d6cca1453498b76372ee864759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 1_Base_Color.png using Guid(7ec0c4d6cca1453498b76372ee864759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b840aafa11d01c5a79f67150f13ac0') in 0.008760 seconds
-  Import took 0.013145 seconds .
+  Time since last request: 16.961030 seconds.
+  path: Assets/Imports/tyler's scene stuff/car roof and floor.fbx
+  artifactKey: Guid(7018fc1422b28014c9bf1eda75af1c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car roof and floor.fbx using Guid(7018fc1422b28014c9bf1eda75af1c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d9844b386cb41f3249d2d20797b35a') in 0.032557 seconds
+  Import took 0.051462 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 2.png
-  artifactKey: Guid(80aa5de7479c9414cbc5acac0370d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 2.png using Guid(80aa5de7479c9414cbc5acac0370d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0888dbd5acf3762b10b86f6e12b76d67') in 0.009258 seconds
-  Import took 0.013459 seconds .
+  Time since last request: 0.000486 seconds.
+  path: Assets/Imports/tyler's scene stuff/car floor.mat
+  artifactKey: Guid(a555124b3a2e40d428323c10ad53767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car floor.mat using Guid(a555124b3a2e40d428323c10ad53767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202e61b9d57260a71c77a5991ab5cf6e') in 0.025386 seconds
+  Import took 0.030538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Imports/tyler's scene stuff/roof 1_Base_Color.png
-  artifactKey: Guid(6c52131d1b309634891ea5e8ab7e5288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/roof 1_Base_Color.png using Guid(6c52131d1b309634891ea5e8ab7e5288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17415578f78f727a4713336da0506da2') in 0.013633 seconds
-  Import took 0.018216 seconds .
+  Time since last request: 0.000412 seconds.
+  path: Assets/Imports/tyler's scene stuff/car roof.mat
+  artifactKey: Guid(f483fbc5635e32e4e8340f473dd13d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car roof.mat using Guid(f483fbc5635e32e4e8340f473dd13d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cb4bd903140c60e1ef62bcd5f73983') in 0.016866 seconds
+  Import took 0.021777 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 13.png
-  artifactKey: Guid(987812e01a067b94e85adcca9a54959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 13.png using Guid(987812e01a067b94e85adcca9a54959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dac1f9812d6b6c1c6d3875a8a67d4d') in 0.008893 seconds
-  Import took 0.013216 seconds .
+  Time since last request: 55.556309 seconds.
+  path: Assets/Imports/tyler's scene stuff/house frame_Base_Color.png
+  artifactKey: Guid(03bb2dab212cab148a86f51e33823d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/house frame_Base_Color.png using Guid(03bb2dab212cab148a86f51e33823d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eae2a4075405f48a1b5ea3a772e3fd') in 0.023549 seconds
+  Import took 0.029654 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 4.png
-  artifactKey: Guid(cef4931fe61acab49b98ddb7e3379a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 4.png using Guid(cef4931fe61acab49b98ddb7e3379a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068c7112433b845f89f853ce07f5f01') in 0.014039 seconds
-  Import took 0.018564 seconds .
+  Time since last request: 0.000579 seconds.
+  path: Assets/Imports/tyler's scene stuff/car walls_Base_Color.png
+  artifactKey: Guid(22c623682363e554a91ee48a0af5c1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car walls_Base_Color.png using Guid(22c623682363e554a91ee48a0af5c1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fff9ff8412fc490e0976e4e49f1fe98') in 0.017433 seconds
+  Import took 0.022619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.6_Base_Color.png
-  artifactKey: Guid(c6f18074d658b334e87da77a06fa39a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.6_Base_Color.png using Guid(c6f18074d658b334e87da77a06fa39a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b34b63ef18a2fe286357442aa5428e') in 0.008891 seconds
-  Import took 0.012869 seconds .
+  Time since last request: 5.463895 seconds.
+  path: Assets/Imports/tyler's scene stuff/house frame fixed.fbx
+  artifactKey: Guid(826a5fe4b6a222a48ac4c228791cccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/house frame fixed.fbx using Guid(826a5fe4b6a222a48ac4c228791cccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d4bce0370da210d5a51bf85918ae46') in 0.057079 seconds
+  Import took 0.062668 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 3.png
-  artifactKey: Guid(3431b9ff957413448a1d157e865df4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 3.png using Guid(3431b9ff957413448a1d157e865df4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe1ff3c8f8adfc7cbfe2cf83613328e') in 0.009694 seconds
-  Import took 0.014746 seconds .
+  Time since last request: 19.833477 seconds.
+  path: Assets/Imports/tyler's scene stuff/house frame fixed.fbx
+  artifactKey: Guid(826a5fe4b6a222a48ac4c228791cccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/house frame fixed.fbx using Guid(826a5fe4b6a222a48ac4c228791cccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f467e892655bc8ecae784e8f2b99f36e') in 0.044484 seconds
+  Import took 0.051044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Imports/tyler's scene stuff/car floor.mat
+  artifactKey: Guid(a555124b3a2e40d428323c10ad53767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car floor.mat using Guid(a555124b3a2e40d428323c10ad53767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ed9e99ecd5800094544bc04f4ffd27') in 0.015280 seconds
+  Import took 0.020279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Imports/tyler's scene stuff/car walls.mat
+  artifactKey: Guid(33060d7b0b6105340b0dae6eea97bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car walls.mat using Guid(33060d7b0b6105340b0dae6eea97bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71da5161043e73d48603e9687c03bf2c') in 0.017414 seconds
+  Import took 0.022347 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000382 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 0.png
-  artifactKey: Guid(5823f49b78dbd204986fd6590d9b5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 0.png using Guid(5823f49b78dbd204986fd6590d9b5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec8e8e5bd044067e12fdf2cf776ac6') in 0.012301 seconds
-  Import took 0.016908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 7.png
-  artifactKey: Guid(2b19e9c7801138245aff3fd67b58d6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 7.png using Guid(2b19e9c7801138245aff3fd67b58d6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2458aa53d5cb55695ae0150117a5e07') in 0.008989 seconds
-  Import took 0.013353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 5.png
-  artifactKey: Guid(5ca6c6ee659cfbb499f8c55920c30c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 5.png using Guid(5ca6c6ee659cfbb499f8c55920c30c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4189802d165fa3598e388a2daf658d') in 0.008951 seconds
-  Import took 0.013869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze walls_Base_Color.png
-  artifactKey: Guid(e9d1d77640a4c6445ba327806768558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze walls_Base_Color.png using Guid(e9d1d77640a4c6445ba327806768558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861a575dc9c24e5c0f4b7fd5e7e45c17') in 0.012767 seconds
-  Import took 0.017518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Imports/tyler's scene stuff/door wall 1_Base_Color.png
-  artifactKey: Guid(6a7b9eea117196842a77fea3518c2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/door wall 1_Base_Color.png using Guid(6a7b9eea117196842a77fea3518c2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a882bf8858de9753e73e25bc4c226b0d') in 0.010021 seconds
-  Import took 0.014199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 12.png
-  artifactKey: Guid(43b84a2c9955d6f43bc559361c8e7176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 12.png using Guid(43b84a2c9955d6f43bc559361c8e7176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559d89c614258154560945cd00bbfdf9') in 0.013987 seconds
-  Import took 0.018798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Imports/tyler's scene stuff/spin wheel 2_Base_Color.png
-  artifactKey: Guid(f3df51d558abb6541b12c275954300df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/spin wheel 2_Base_Color.png using Guid(f3df51d558abb6541b12c275954300df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca6ac9613b91b39e22ae83364377e72') in 0.008723 seconds
-  Import took 0.012839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 14.png
-  artifactKey: Guid(3b190614372d20548ade9d044f3bbf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 14.png using Guid(3b190614372d20548ade9d044f3bbf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e334907c7cc7ef7975d107ec6f6618fd') in 0.010049 seconds
-  Import took 0.015041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 2_Base_Color.png
-  artifactKey: Guid(b1780a634e2964243bc5322a5054b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 2_Base_Color.png using Guid(b1780a634e2964243bc5322a5054b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da0e433182275f1ff56aadf9a07f13b') in 0.010913 seconds
-  Import took 0.015906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Imports/tyler's scene stuff/mouth_Base_Color.png
-  artifactKey: Guid(81ae75cfc22da9348b04804854bfc55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/mouth_Base_Color.png using Guid(81ae75cfc22da9348b04804854bfc55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09cd8f7bc98e6126d4922bc25e9aca6') in 0.010501 seconds
-  Import took 0.015415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Imports/tyler's scene stuff/pic frame 2_Base_Color.png
-  artifactKey: Guid(c891a9b0e2ddf0a4aa1cfe349b3ff34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pic frame 2_Base_Color.png using Guid(c891a9b0e2ddf0a4aa1cfe349b3ff34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b16f97281661e6358b30f68bbf24dc6') in 0.014807 seconds
-  Import took 0.019642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 9.png
-  artifactKey: Guid(34ad4ba967d159d4381f0ab208f16291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 9.png using Guid(34ad4ba967d159d4381f0ab208f16291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97663caa647da0a2ab477afa40b4aff') in 0.009426 seconds
-  Import took 0.014081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Imports/tyler's scene stuff/nose_Base_Color.png
-  artifactKey: Guid(848ed5e8276d7084cac1c472afc292e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/nose_Base_Color.png using Guid(848ed5e8276d7084cac1c472afc292e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab432987310774c2199bd1343328898') in 0.014185 seconds
-  Import took 0.019047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Imports/tyler's scene stuff/front lights_Base_Color.png
-  artifactKey: Guid(953db312758ffef469d8e18dd3c168c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/front lights_Base_Color.png using Guid(953db312758ffef469d8e18dd3c168c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b533c5b8765a47782f5542e24e52dc75') in 0.011278 seconds
-  Import took 0.016751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Imports/tyler's scene stuff/keypad_Base_Color.png
-  artifactKey: Guid(83276bb272b48674487231ef0a10a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/keypad_Base_Color.png using Guid(83276bb272b48674487231ef0a10a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaac4d33cc05a6dcf6261f15d938980') in 0.011125 seconds
-  Import took 0.015710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Imports/tyler's scene stuff/pic frame 1_Base_Color.png
-  artifactKey: Guid(d893ac6b589db394b9847b3a1c828998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pic frame 1_Base_Color.png using Guid(d893ac6b589db394b9847b3a1c828998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c17b576d28f95a8cbc001c138dfea41') in 0.018355 seconds
-  Import took 0.022515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 6.png
-  artifactKey: Guid(7a842acdc062a9e4cb237c47562ff483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 6.png using Guid(7a842acdc062a9e4cb237c47562ff483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fc19c9450f7a175b78fd2717e35853') in 0.016722 seconds
-  Import took 0.021595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Imports/tyler's scene stuff/sec 1 walls_Base_Color.png
-  artifactKey: Guid(acb70afdc73e63a4783c1ef9762e6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/sec 1 walls_Base_Color.png using Guid(acb70afdc73e63a4783c1ef9762e6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0586630fefcbc46560c0418c3c922bd1') in 0.018456 seconds
-  Import took 0.023137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 3_Base_Color.png
-  artifactKey: Guid(838b74885ba12ad45a374911f0affbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 3_Base_Color.png using Guid(838b74885ba12ad45a374911f0affbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f956d73ed70c68eabc068f8324ad402b') in 0.008748 seconds
-  Import took 0.013359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 10.png
-  artifactKey: Guid(9755862e5689f474c96bc6f68ea6d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 10.png using Guid(9755862e5689f474c96bc6f68ea6d274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668a1343db362ff41c9be9788576a36b') in 0.014898 seconds
-  Import took 0.019463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Imports/tyler's scene stuff/entry wall 1_Base_Color.png
-  artifactKey: Guid(8e0e61d27e8629f44b4949acb62676cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/entry wall 1_Base_Color.png using Guid(8e0e61d27e8629f44b4949acb62676cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75195464a6718e8d7ae9b4364cdaf161') in 0.010069 seconds
-  Import took 0.014026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Imports/tyler's scene stuff/queue line_Base_Color.png
-  artifactKey: Guid(247cf6f5ba3e3bf4384d6bea249ec288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/queue line_Base_Color.png using Guid(247cf6f5ba3e3bf4384d6bea249ec288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a91971c195b3bb638e4a7862a7bab50') in 0.014229 seconds
-  Import took 0.018766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.png
-  artifactKey: Guid(080be4217dca83b42b7a6304bc165735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.png using Guid(080be4217dca83b42b7a6304bc165735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5390f2c59b3e4a2c9e60c1e1212ea2db') in 0.009011 seconds
-  Import took 0.013466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 8.png
-  artifactKey: Guid(13c9ddf0279e065438c66d0ed08ef5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 8.png using Guid(13c9ddf0279e065438c66d0ed08ef5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a961bf6b104246ad89ad64b2c6848ea') in 0.008117 seconds
-  Import took 0.012911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Imports/tyler's scene stuff/door_Base_Color.png
-  artifactKey: Guid(c3d23d34e4239744b9963bf19b18b7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/door_Base_Color.png using Guid(c3d23d34e4239744b9963bf19b18b7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c40722de272117ca508577f4671d1aa') in 0.013967 seconds
-  Import took 0.018805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/tyler's scene stuff/spin wheel 1_Base_Color.png
-  artifactKey: Guid(3a091f99848e9ae49baae5b1b3a4ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/spin wheel 1_Base_Color.png using Guid(3a091f99848e9ae49baae5b1b3a4ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d988ba11369955dbdf7989d9ea91156') in 0.009259 seconds
-  Import took 0.014120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/tyler's scene stuff/teeth_Base_Color.png
-  artifactKey: Guid(c3823cd0ce9bc324391a7c576bd55f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/teeth_Base_Color.png using Guid(c3823cd0ce9bc324391a7c576bd55f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fabb1609b3a0f06693017d491f6f874') in 0.015306 seconds
-  Import took 0.019391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.860200 seconds.
-  path: Assets/Imports/tyler's scene stuff/test 3.fbx
-  artifactKey: Guid(71585d789aef74e448f0a5692443734f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/test 3.fbx using Guid(71585d789aef74e448f0a5692443734f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0115fe3795c76e193be3bb5ab7de749') in 0.531075 seconds
-  Import took 0.537389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.978894 seconds.
-  path: Assets/Imports/tyler's scene stuff/door frame.mat
-  artifactKey: Guid(091a50f4785a4e243808746a2e3bfee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/door frame.mat using Guid(091a50f4785a4e243808746a2e3bfee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63371caf83224023467a9f5272237cb') in 0.016126 seconds
-  Import took 0.021055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.9.mat
-  artifactKey: Guid(1da52f0ea2a65804c855aab0d11cecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.9.mat using Guid(1da52f0ea2a65804c855aab0d11cecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87053f419a048cac7a820a492e207e5b') in 0.015517 seconds
-  Import took 0.020443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Imports/tyler's scene stuff/entry wall 1.mat
-  artifactKey: Guid(82bb2559f3df94944b99cd5194909b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/entry wall 1.mat using Guid(82bb2559f3df94944b99cd5194909b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ce31bb844c3f62db2803d92a8db2e3') in 0.016345 seconds
-  Import took 0.021139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Imports/tyler's scene stuff/front lights.mat
-  artifactKey: Guid(19088f75c87d2e84d8bfb00dc8bba45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/front lights.mat using Guid(19088f75c87d2e84d8bfb00dc8bba45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dd9dbb1b1649709fdcef8ef68a97a7') in 0.011882 seconds
-  Import took 0.016960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Imports/tyler's scene stuff/pillar 1.mat
-  artifactKey: Guid(ef8b439f20832294199e0f4684d0dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pillar 1.mat using Guid(ef8b439f20832294199e0f4684d0dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e885c00b4b1e1ba3314996f1753878e9') in 0.013041 seconds
-  Import took 0.017315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Imports/tyler's scene stuff/spin wheel 2.mat
-  artifactKey: Guid(a3fa418684465ea4caf5bd3b63d6b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/spin wheel 2.mat using Guid(a3fa418684465ea4caf5bd3b63d6b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c57a59f1d1fda1e9b0669b2b9ff66d') in 0.016187 seconds
-  Import took 0.021085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Imports/tyler's scene stuff/entry wall 2.mat
-  artifactKey: Guid(07b67f71f7fa1f8498b440f5d9812d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/entry wall 2.mat using Guid(07b67f71f7fa1f8498b440f5d9812d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da14083ae1a361188dbea4671ccf0fb') in 0.019427 seconds
-  Import took 0.023750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.5.mat
-  artifactKey: Guid(0bec4e1cadf7b564e9b08c188f082fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.5.mat using Guid(0bec4e1cadf7b564e9b08c188f082fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e634f21bd7f21edb0902c80a3bbaa5') in 0.016390 seconds
-  Import took 0.020980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Imports/tyler's scene stuff/spin wheel 1.mat
-  artifactKey: Guid(614ac9cb0f32a484d8afa15e0ed12693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/spin wheel 1.mat using Guid(614ac9cb0f32a484d8afa15e0ed12693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2617f19b313325e8cb68a51f12adaa83') in 0.017726 seconds
-  Import took 0.022600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.16.mat
-  artifactKey: Guid(288d98af121a8964d802fcf3f6dbf2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.16.mat using Guid(288d98af121a8964d802fcf3f6dbf2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78c210668b88c71a220a9d18c1726a4') in 0.013647 seconds
-  Import took 0.018662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 2.mat
-  artifactKey: Guid(87ead666fd832c54daf476175d8970da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 2.mat using Guid(87ead666fd832c54daf476175d8970da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b2299b28c1a7831c7262cbb68995fb') in 0.012043 seconds
-  Import took 0.016771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.1.mat
-  artifactKey: Guid(a4cad9d1f020bca4c84a05f6b80d4921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.1.mat using Guid(a4cad9d1f020bca4c84a05f6b80d4921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2655e66f5f051af59154b39980dbce70') in 0.017002 seconds
-  Import took 0.021992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.3.mat
-  artifactKey: Guid(a4d9a5e63dd89fd4cb69bf94da1a8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.3.mat using Guid(a4d9a5e63dd89fd4cb69bf94da1a8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e00e2ccf634dd45311943c8c20fae2') in 0.010963 seconds
-  Import took 0.015467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 1.mat
-  artifactKey: Guid(e65f8a3cbb1bc754f98d3b4b1d7d08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 1.mat using Guid(e65f8a3cbb1bc754f98d3b4b1d7d08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186e39348ca321bc660df8f7b9522666') in 0.012986 seconds
-  Import took 0.017826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/tyler's scene stuff/mouth.mat
-  artifactKey: Guid(c9cb402ba035c2e449f5f22f211daf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/mouth.mat using Guid(c9cb402ba035c2e449f5f22f211daf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a2d71cf3e0f1109f71523b77295a64') in 0.018253 seconds
-  Import took 0.022828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Imports/tyler's scene stuff/pic frame 1.mat
-  artifactKey: Guid(3db5552d4fcd8334594985c1793b1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pic frame 1.mat using Guid(3db5552d4fcd8334594985c1793b1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1addb975358fd5ff07515c45f7c9fbab') in 0.016129 seconds
-  Import took 0.020920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/tyler's scene stuff/teeth.mat
-  artifactKey: Guid(ccafc8a17a462ed4da56442ab40a1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/teeth.mat using Guid(ccafc8a17a462ed4da56442ab40a1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64722dc64cb2e2c513ceb6dcc231a6a9') in 0.018136 seconds
-  Import took 0.022847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.mat
-  artifactKey: Guid(55d4e13231d0d9f429737273f07fd161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.mat using Guid(55d4e13231d0d9f429737273f07fd161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3527938368b5a3506ae2bf28b7b2f3df') in 0.011882 seconds
-  Import took 0.016651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.6.mat
-  artifactKey: Guid(1beb2a50caa186b4dad5fed863cfc342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.6.mat using Guid(1beb2a50caa186b4dad5fed863cfc342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d1422ea2bbec726254ba0aed84da8e') in 0.014188 seconds
-  Import took 0.019397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.7.mat
-  artifactKey: Guid(a742f7566fd1ec842b6bcfe2e2df1f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.7.mat using Guid(a742f7566fd1ec842b6bcfe2e2df1f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd510f5ff6c6c14d914a6d3f1b2f53149') in 0.016352 seconds
-  Import took 0.021438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Imports/tyler's scene stuff/roof 1.mat
-  artifactKey: Guid(6e86df160da114d4ba445c92b18dc510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/roof 1.mat using Guid(6e86df160da114d4ba445c92b18dc510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa6cfa0db2e81e6d8d92d5f1f3b20f3') in 0.011101 seconds
-  Import took 0.015632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Imports/tyler's scene stuff/keypad.mat
-  artifactKey: Guid(dcb2026e0c7bedb48be873bb980f8e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/keypad.mat using Guid(dcb2026e0c7bedb48be873bb980f8e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461763d72c424198757da5b68719f1c2') in 0.011823 seconds
-  Import took 0.016791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.17.mat
-  artifactKey: Guid(3236ed0a5c22b13469fb2a687e0e8c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.17.mat using Guid(3236ed0a5c22b13469fb2a687e0e8c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168603b0afcda96f7f393db4d369086b') in 0.011447 seconds
-  Import took 0.016343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.7.mat
-  artifactKey: Guid(7b4cc61b845202a4bbf63fd79a1880c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.7.mat using Guid(7b4cc61b845202a4bbf63fd79a1880c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae937da313cfb2feacfe17b2fb4464fe') in 0.011237 seconds
-  Import took 0.015725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.8.mat
-  artifactKey: Guid(c126321a649eb824cb40102f5c4340a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.8.mat using Guid(c126321a649eb824cb40102f5c4340a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47ab7b99806c04b0b8919daf030fac4') in 0.012025 seconds
-  Import took 0.016897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.8.mat
-  artifactKey: Guid(507e90bb285e97349899347fe030c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.8.mat using Guid(507e90bb285e97349899347fe030c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb8c010f327bf711dd7d6bb5ee480b3') in 0.012010 seconds
-  Import took 0.017573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Imports/tyler's scene stuff/sec 1 walls.mat
-  artifactKey: Guid(60101d5a36126e6479908cf4f3c01792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/sec 1 walls.mat using Guid(60101d5a36126e6479908cf4f3c01792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f8a3c84eaa4517f3527c5e059e5489') in 0.013032 seconds
-  Import took 0.017443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.6.mat
-  artifactKey: Guid(1b45b140838f8d645862bf554e6e1742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.6.mat using Guid(1b45b140838f8d645862bf554e6e1742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a36a71e5f17cb4a2fdef59da4839024') in 0.010231 seconds
-  Import took 0.015544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Imports/tyler's scene stuff/door.mat
-  artifactKey: Guid(22e33133ba22aa34b93d216ce7d7886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/door.mat using Guid(22e33133ba22aa34b93d216ce7d7886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3f21f15f512424db358ab3ef71e9c6') in 0.012506 seconds
-  Import took 0.017584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.18.mat
-  artifactKey: Guid(5f60b770884fb5e4f8b93fb69a5ee4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.18.mat using Guid(5f60b770884fb5e4f8b93fb69a5ee4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8e548ef47cae2c5d16d63d9521a8ce') in 0.011131 seconds
-  Import took 0.015999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.19.mat
-  artifactKey: Guid(2544fe3817f591b46b47fbcb0a4e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.19.mat using Guid(2544fe3817f591b46b47fbcb0a4e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46611048e83638648281675d7a2d76e7') in 0.011247 seconds
-  Import took 0.016159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.15.mat
-  artifactKey: Guid(40b55249759778948b07cd524bd628a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.15.mat using Guid(40b55249759778948b07cd524bd628a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477c11ce097712d29f8695bffbae8575') in 0.017853 seconds
-  Import took 0.022232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.2.mat
-  artifactKey: Guid(ca166beca4bdd6a4d9cfc2ceae4bd470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.2.mat using Guid(ca166beca4bdd6a4d9cfc2ceae4bd470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8c7aba56bd4dc80a0e9f6ce7d58c5b') in 0.011560 seconds
-  Import took 0.016154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.5.mat
-  artifactKey: Guid(3266bd55ff6727b44906d2b476371f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.5.mat using Guid(3266bd55ff6727b44906d2b476371f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90403e84451337938793db3fcc1071') in 0.011378 seconds
-  Import took 0.016218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.4.mat
-  artifactKey: Guid(0c16819e8a9dbe8468bc73ddb4110d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.4.mat using Guid(0c16819e8a9dbe8468bc73ddb4110d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae9b83080869da3b64c3173aed9146') in 0.010895 seconds
-  Import took 0.015994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze walls.mat
-  artifactKey: Guid(2dfe5e0f72c101145b387b18a2044d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze walls.mat using Guid(2dfe5e0f72c101145b387b18a2044d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eea7b4fa7048ae811fbaaf54440bed') in 0.012336 seconds
-  Import took 0.017379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Imports/tyler's scene stuff/test 3.fbx
-  artifactKey: Guid(71585d789aef74e448f0a5692443734f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/test 3.fbx using Guid(71585d789aef74e448f0a5692443734f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54b2418712fa752c299d5be6091f347') in 0.198884 seconds
-  Import took 0.205266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Imports/tyler's scene stuff/pic frame 2.mat
-  artifactKey: Guid(36c050aad1d5c3e4598d94bd4e49c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pic frame 2.mat using Guid(36c050aad1d5c3e4598d94bd4e49c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdca318482ceb00301e4fef30bbf061') in 0.015774 seconds
-  Import took 0.020376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Imports/tyler's scene stuff/door wall 1.mat
-  artifactKey: Guid(3d2d9c46285996d41b12443adab23ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/door wall 1.mat using Guid(3d2d9c46285996d41b12443adab23ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b54f6e403623cc0be5788af29fa6db') in 0.012025 seconds
-  Import took 0.016563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Imports/tyler's scene stuff/nose.mat
-  artifactKey: Guid(099202ff8f526f14da51ec26068016ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/nose.mat using Guid(099202ff8f526f14da51ec26068016ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6f93002c5883d143283d437984782f') in 0.012958 seconds
-  Import took 0.017732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Imports/tyler's scene stuff/queue line.mat
-  artifactKey: Guid(ffd5cd84d9420ef4fba0b714280ac05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/queue line.mat using Guid(ffd5cd84d9420ef4fba0b714280ac05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07a2cf483eec2d24ee368b1a41b33f5') in 0.016150 seconds
-  Import took 0.021138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 3.mat
-  artifactKey: Guid(b0cee99f9b2c5dd45aebafd966cebf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 3.mat using Guid(b0cee99f9b2c5dd45aebafd966cebf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7561516a7635c396477bf07e7664c1') in 0.017874 seconds
-  Import took 0.022675 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001512 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.863 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2658 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.7 MB.
-System memory in use after: 127.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3330.
-Total: 3.345300 ms (FindLiveObjects: 0.403800 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.778000 ms  DeleteObjects: 0.088000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 242.264804 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.9.mat
-  artifactKey: Guid(1da52f0ea2a65804c855aab0d11cecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.9.mat using Guid(1da52f0ea2a65804c855aab0d11cecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc546c9a364b454a314a2b0ded15888') in 0.132388 seconds
-  Import took 0.137209 seconds .
+  path: Assets/Imports/tyler's scene stuff/house frame.mat
+  artifactKey: Guid(450640a0d4c7a2b43ae070d0601eba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/house frame.mat using Guid(450640a0d4c7a2b43ae070d0601eba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7347ac16f8acf8c664e90f503eeb352') in 0.017073 seconds
+  Import took 0.021539 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000315 seconds.
-  path: Assets/Imports/tyler's scene stuff/pillar 1.mat
-  artifactKey: Guid(ef8b439f20832294199e0f4684d0dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pillar 1.mat using Guid(ef8b439f20832294199e0f4684d0dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b349aacf22a82ea1045ee7f750004b') in 0.015248 seconds
-  Import took 0.020110 seconds .
+  path: Assets/Imports/tyler's scene stuff/car roof.mat
+  artifactKey: Guid(f483fbc5635e32e4e8340f473dd13d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car roof.mat using Guid(f483fbc5635e32e4e8340f473dd13d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2439f642fad8cf511b19cdf85226c2') in 0.018047 seconds
+  Import took 0.022894 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Imports/tyler's scene stuff/spin wheel 2.mat
-  artifactKey: Guid(a3fa418684465ea4caf5bd3b63d6b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/spin wheel 2.mat using Guid(a3fa418684465ea4caf5bd3b63d6b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c037dce3d21cc4efbd0a5d47a41746f6') in 0.013851 seconds
-  Import took 0.018476 seconds .
+  Time since last request: 527.509549 seconds.
+  path: Assets/Imports/tyler's scene stuff/car walls.mat
+  artifactKey: Guid(33060d7b0b6105340b0dae6eea97bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/car walls.mat using Guid(33060d7b0b6105340b0dae6eea97bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faa5425463edd29074565222a34db23') in 0.019993 seconds
+  Import took 0.025137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Imports/tyler's scene stuff/spin wheel 1.mat
-  artifactKey: Guid(614ac9cb0f32a484d8afa15e0ed12693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/spin wheel 1.mat using Guid(614ac9cb0f32a484d8afa15e0ed12693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46096126812d8ed609f9c48413ea21ed') in 0.012523 seconds
-  Import took 0.017472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 2.mat
-  artifactKey: Guid(87ead666fd832c54daf476175d8970da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 2.mat using Guid(87ead666fd832c54daf476175d8970da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb01c185e63b2ec9a1815d1125f3494') in 0.012884 seconds
-  Import took 0.017862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.1.mat
-  artifactKey: Guid(a4cad9d1f020bca4c84a05f6b80d4921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.1.mat using Guid(a4cad9d1f020bca4c84a05f6b80d4921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd621cb05e1839b4773900d0a689431b0') in 0.019809 seconds
-  Import took 0.024861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.3.mat
-  artifactKey: Guid(a4d9a5e63dd89fd4cb69bf94da1a8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.3.mat using Guid(a4d9a5e63dd89fd4cb69bf94da1a8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b09e03eb0e0dc66b4890d51760fa2bc') in 0.016792 seconds
-  Import took 0.021436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 1.mat
-  artifactKey: Guid(e65f8a3cbb1bc754f98d3b4b1d7d08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 1.mat using Guid(e65f8a3cbb1bc754f98d3b4b1d7d08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73322e7cdd9471aaab4425dd282cd786') in 0.017446 seconds
-  Import took 0.022415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Imports/tyler's scene stuff/mouth.mat
-  artifactKey: Guid(c9cb402ba035c2e449f5f22f211daf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/mouth.mat using Guid(c9cb402ba035c2e449f5f22f211daf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45b7c37dfbec70df2174610471509c9') in 0.012154 seconds
-  Import took 0.017076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Imports/tyler's scene stuff/pic frame 1.mat
-  artifactKey: Guid(3db5552d4fcd8334594985c1793b1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pic frame 1.mat using Guid(3db5552d4fcd8334594985c1793b1e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe71529376dfa47959317704506d09') in 0.011821 seconds
-  Import took 0.016500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Imports/tyler's scene stuff/teeth.mat
-  artifactKey: Guid(ccafc8a17a462ed4da56442ab40a1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/teeth.mat using Guid(ccafc8a17a462ed4da56442ab40a1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2951b22a0691b37ede8a3a02233fc9') in 0.017601 seconds
-  Import took 0.022275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.mat
-  artifactKey: Guid(55d4e13231d0d9f429737273f07fd161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.mat using Guid(55d4e13231d0d9f429737273f07fd161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c877f3db3875ac2ed99603bc21e76d1b') in 0.017054 seconds
-  Import took 0.021839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Imports/tyler's scene stuff/roof 1.mat
-  artifactKey: Guid(6e86df160da114d4ba445c92b18dc510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/roof 1.mat using Guid(6e86df160da114d4ba445c92b18dc510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f87fb0980d63a6ae037f3bd3d161540') in 0.017633 seconds
-  Import took 0.022666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.7.mat
-  artifactKey: Guid(7b4cc61b845202a4bbf63fd79a1880c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.7.mat using Guid(7b4cc61b845202a4bbf63fd79a1880c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd59db3886f63187fb01f88c1d3ee955') in 0.017128 seconds
-  Import took 0.021939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.8.mat
-  artifactKey: Guid(507e90bb285e97349899347fe030c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.8.mat using Guid(507e90bb285e97349899347fe030c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2e432446993099e6d21b404fbe5ec3') in 0.016674 seconds
-  Import took 0.022344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Imports/tyler's scene stuff/sec 1 walls.mat
-  artifactKey: Guid(60101d5a36126e6479908cf4f3c01792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/sec 1 walls.mat using Guid(60101d5a36126e6479908cf4f3c01792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db12c0c4913487dc7eb44107a1b47329') in 0.017175 seconds
-  Import took 0.022000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.6.mat
-  artifactKey: Guid(1b45b140838f8d645862bf554e6e1742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.6.mat using Guid(1b45b140838f8d645862bf554e6e1742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913aaffa0cc9fb08b422aef95780fb7a') in 0.017296 seconds
-  Import took 0.021753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.2.mat
-  artifactKey: Guid(ca166beca4bdd6a4d9cfc2ceae4bd470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.2.mat using Guid(ca166beca4bdd6a4d9cfc2ceae4bd470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a668a3db621ccb4d683ae26bdc68ea6') in 0.011253 seconds
-  Import took 0.015964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.18.mat
-  artifactKey: Guid(5f60b770884fb5e4f8b93fb69a5ee4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.18.mat using Guid(5f60b770884fb5e4f8b93fb69a5ee4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0d50b60cfb3c31f22ee24d4ef3883a') in 0.012266 seconds
-  Import took 0.017299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Imports/tyler's scene stuff/Mat.19.mat
-  artifactKey: Guid(2544fe3817f591b46b47fbcb0a4e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/Mat.19.mat using Guid(2544fe3817f591b46b47fbcb0a4e8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20698ae45a9bb5814eab900026377e9b') in 0.010305 seconds
-  Import took 0.014990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Imports/tyler's scene stuff/pic frame 2.mat
-  artifactKey: Guid(36c050aad1d5c3e4598d94bd4e49c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/pic frame 2.mat using Guid(36c050aad1d5c3e4598d94bd4e49c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0a7f60b1e6c5288482ca7d7b3b251c') in 0.012881 seconds
-  Import took 0.017784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.5.mat
-  artifactKey: Guid(3266bd55ff6727b44906d2b476371f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.5.mat using Guid(3266bd55ff6727b44906d2b476371f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97db39a94db2d90d11ea9aef5a5e7ae') in 0.013220 seconds
-  Import took 0.017936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Imports/tyler's scene stuff/painting 1.4.mat
-  artifactKey: Guid(0c16819e8a9dbe8468bc73ddb4110d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/painting 1.4.mat using Guid(0c16819e8a9dbe8468bc73ddb4110d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c655b835d6e4d318e954fce159b012f1') in 0.012344 seconds
-  Import took 0.016487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze walls.mat
-  artifactKey: Guid(2dfe5e0f72c101145b387b18a2044d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze walls.mat using Guid(2dfe5e0f72c101145b387b18a2044d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9bcb55aed5cf4bdd03fd20bfa04c20') in 0.011120 seconds
-  Import took 0.015887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/Imports/tyler's scene stuff/queue line.mat
-  artifactKey: Guid(ffd5cd84d9420ef4fba0b714280ac05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/queue line.mat using Guid(ffd5cd84d9420ef4fba0b714280ac05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dd852e4876ec20ca0413b6ad635f4e') in 0.011845 seconds
-  Import took 0.016739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Imports/tyler's scene stuff/nose.mat
-  artifactKey: Guid(099202ff8f526f14da51ec26068016ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/nose.mat using Guid(099202ff8f526f14da51ec26068016ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c28ae4e53906755bfb24fa0f599a19') in 0.017027 seconds
-  Import took 0.021839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Imports/tyler's scene stuff/maze prop 3.mat
-  artifactKey: Guid(b0cee99f9b2c5dd45aebafd966cebf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/tyler's scene stuff/maze prop 3.mat using Guid(b0cee99f9b2c5dd45aebafd966cebf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8697e54ca8bd852d418833951d2228fc') in 0.019386 seconds
-  Import took 0.024086 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/Imports/tyler's scene stuff/house frame.mat
+  artifactKey: Guid(450640a0d4c7a2b43ae070d0601eba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/tyler's scene stuff/house frame.mat using Guid(450640a0d4c7a2b43ae070d0601eba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6e77e858a7b4f4e63c34596a27586b') in 0.029147 seconds
+  Import took 0.033844 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
