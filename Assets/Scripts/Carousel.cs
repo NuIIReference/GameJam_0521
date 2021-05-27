@@ -136,6 +136,7 @@ public class Carousel : MonoBehaviour
             if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, 0, 0)) <= .2f)
             {
                 doorOpening = false;
+                doorClosed = false;
             }
         }
         

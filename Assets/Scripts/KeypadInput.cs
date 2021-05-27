@@ -94,6 +94,6 @@ public class KeypadInput : MonoBehaviour
     {
         int clip = UnityEngine.Random.Range(0, toneClips.Length);
         source.clip = toneClips[clip];
-        source.PlayOneShot(source.clip); 
+        source.Play(); 
     }
 }

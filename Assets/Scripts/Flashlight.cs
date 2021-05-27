@@ -321,7 +321,7 @@ public class Flashlight : MonoBehaviour
 
         UpdateBatteryState(false);
 
-        ToggleFlashLight(false, false);
+        ToggleFlashLight(true, false);
 
         if (useUi)
         {
