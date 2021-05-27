@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public float stepInterval;
     public AudioClip[] footStepClips;
     public AudioSource source;
+    public AudioMixerGroup sfxMixer;
     [Header("Ground Check Properties")]
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -157,6 +159,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 source = gameObject.AddComponent<AudioSource>();
                 source.playOnAwake = false;
+                source.outputAudioMixerGroup = sfxMixer;
             }   
         }
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Flashlight : MonoBehaviour
 {
@@ -38,6 +39,7 @@ public class Flashlight : MonoBehaviour
     public AudioClip onClip;
     public AudioClip offClip;
     public AudioClip newBatteryClip;
+    public AudioMixerGroup sfxMixer;
 
     public Image stateImage;
     public Slider batteryChargeSlider;
@@ -308,6 +310,7 @@ public class Flashlight : MonoBehaviour
                 flashlightAudioSource = gameObject.AddComponent<AudioSource>();
             }
             flashlightAudioSource.playOnAwake = false;
+            flashlightAudioSource.outputAudioMixerGroup = sfxMixer;
         }
 
         if (!mainCamera)
