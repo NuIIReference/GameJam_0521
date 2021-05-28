@@ -39,10 +39,10 @@ public class FieldOfView : MonoBehaviour
         StartCoroutine("FindTargets", 0.2f);
     }
 
-    //private void LateUpdate()
-    //{
-    //    DrawFieldOfView();
-    //}
+    private void LateUpdate()
+    {
+        DrawFieldOfView();
+    }
 
     private void Update()
     {
@@ -78,7 +78,7 @@ public class FieldOfView : MonoBehaviour
                     {
                         targetMaterial = target.GetComponent<MeshRenderer>().material;
                         targetColor = targetMaterial.color;
-                        targetColor.a = 255;
+                        targetColor.a = 0;
                         setAlpha = true;
                     }
                 }
@@ -88,10 +88,11 @@ public class FieldOfView : MonoBehaviour
 
     void StepAlpha()
     {
-        if (setAlpha && targetMaterial.color.a < 1)
+        if (setAlpha && targetMaterial.color.a >= 0)
         {
+            Debug.Log(setAlpha);
             targetMaterial.color = Color.Lerp(targetMaterial.color, targetColor, fadeTime * Time.deltaTime);
-            if (targetMaterial.color.a >= 255)
+            if (targetMaterial.color.a <= 0.01f)
             {
                 setAlpha = false;
             }

@@ -29,12 +29,15 @@ public class Carousel : MonoBehaviour
 
     private Vector3 screenCenter;
 
+    private FlashlightFlicker flicker;
+
     private void Start()
     {
         source = GetComponent<AudioSource>();
         highlightLayer = LayerMask.NameToLayer("Highlight");
         doorLayer = LayerMask.NameToLayer("Doors");
         screenCenter = new Vector3(Screen.width >> 1, Screen.height >> 1);
+        flicker = FindObjectOfType<FlashlightFlicker>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -60,12 +63,13 @@ public class Carousel : MonoBehaviour
             Debug.Log(Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)));
             if (!doorClosed)
                 door.transform.Rotate(-Vector3.up * doorCloseSpeed * Time.deltaTime);
-            if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)) <= 0.2f)
+            if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)) <= 0.3f)
             {
                 doorClosed = true;
                 source.clip = doorCloseClip;
                 source.Play();
                 anim.SetBool("Spin", true);
+                StartCoroutine(flicker.CarouselFlicker());
                 startSpin = false;
             }
         }
@@ -133,7 +137,7 @@ public class Carousel : MonoBehaviour
             door.transform.Rotate(Vector3.up * doorOpenSpeed * Time.deltaTime);
             source.clip = doorOpenClip;
             source.Play();
-            if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, 0, 0)) <= .2f)
+            if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, 0, 0)) <= .3f)
             {
                 doorOpening = false;
                 doorClosed = false;
