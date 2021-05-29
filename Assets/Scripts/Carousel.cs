@@ -15,7 +15,8 @@ public class Carousel : MonoBehaviour
     [SerializeField] private AudioClip doorOpenClip;
     [SerializeField] private AudioClip doorCloseClip;
 
-    [SerializeField] private Animator anim;
+    [SerializeField] private Animator wallAnim;
+    [SerializeField] private Animator lightAnim;
     private AudioSource source;
 
     private bool startSpin = false;
@@ -71,7 +72,8 @@ public class Carousel : MonoBehaviour
                 doorClosed = true;
                 source.clip = doorCloseClip;
                 source.Play();
-                anim.SetBool("Spin", true);
+                wallAnim.SetBool("Spin", true);
+                lightAnim.SetBool("playAnim", true);
                 StartCoroutine(flicker.CarouselFlicker());
                 startSpin = false;
             }

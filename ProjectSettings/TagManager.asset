@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fade Object
   - Exit Door
+  - Animated Object
+  - Play Anim
   layers:
   - Default
   - TransparentFX

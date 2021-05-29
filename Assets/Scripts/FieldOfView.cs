@@ -28,6 +28,7 @@ public class FieldOfView : MonoBehaviour
     private bool setAlpha = false;
 
     private GameObject currentFadeObject;
+    private GameObject currentAnimatedObject;
 
     private void Start()
     {
@@ -84,9 +85,29 @@ public class FieldOfView : MonoBehaviour
                         targetColor.a = 0;
                         setAlpha = true;
                     }
+
+                    if (target.CompareTag("Animated Object"))
+                    {
+                        currentAnimatedObject = target.parent.gameObject;
+                        StartCoroutine(DisableObject(2f));
+                    }
+
+                    if (target.CompareTag("Play Anim"))
+                    {
+                        currentAnimatedObject = target.parent.gameObject;
+                        Animator anim = currentAnimatedObject.GetComponent<Animator>();
+                        anim.SetBool("playAnim", true);
+                        StartCoroutine(DisableObject(2f));
+                    }
                 }
             }
         }
+    }
+
+    IEnumerator DisableObject(float time)
+    {
+        yield return new WaitForSeconds(time);
+        currentAnimatedObject.SetActive(false);
     }
 
     void StepAlpha()
