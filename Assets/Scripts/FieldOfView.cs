@@ -27,6 +27,8 @@ public class FieldOfView : MonoBehaviour
 
     private bool setAlpha = false;
 
+    private GameObject currentFadeObject;
+
     private void Start()
     {
         viewMesh = new Mesh();
@@ -76,6 +78,7 @@ public class FieldOfView : MonoBehaviour
                     visibleTargets.Add(target);
                     if (target.CompareTag("Fade Object"))
                     {
+                        currentFadeObject = target.gameObject;
                         targetMaterial = target.GetComponent<MeshRenderer>().material;
                         targetColor = targetMaterial.color;
                         targetColor.a = 0;
@@ -94,6 +97,7 @@ public class FieldOfView : MonoBehaviour
             targetMaterial.color = Color.Lerp(targetMaterial.color, targetColor, fadeTime * Time.deltaTime);
             if (targetMaterial.color.a <= 0.01f)
             {
+                currentFadeObject.SetActive(false);
                 setAlpha = false;
             }
         }

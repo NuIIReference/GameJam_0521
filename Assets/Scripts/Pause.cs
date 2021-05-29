@@ -13,6 +13,8 @@ public class Pause : MonoBehaviour
     [SerializeField] private AudioMixer musicMixer;
     [SerializeField] private AudioMixer sfxMixer;
 
+    [SerializeField] MouseLook mouseLook;
+
 
     private void Start()
     {
@@ -90,5 +92,10 @@ public class Pause : MonoBehaviour
     {
         creditsPanel.SetActive(false);
         pausePanel.SetActive(true);
+    }
+
+    public void Mousesensitivity(float value)
+    {
+        mouseLook.mouseSensitivity = value;
     }
 }
