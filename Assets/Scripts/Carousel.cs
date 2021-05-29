@@ -23,6 +23,8 @@ public class Carousel : MonoBehaviour
     private bool correctDoor = false;
     private bool doorOpening = false;
     private bool canInteractWithDoor = false;
+    private bool spinComplete = false;
+    private bool doorFinishedOpening = false;
 
     private int highlightLayer;
     private int doorLayer;
@@ -42,9 +44,10 @@ public class Carousel : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !spinComplete)
         {
             startSpin = true;
+            spinComplete = true;
         }
     }
 
@@ -63,7 +66,7 @@ public class Carousel : MonoBehaviour
             Debug.Log(Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)));
             if (!doorClosed)
                 door.transform.Rotate(-Vector3.up * doorCloseSpeed * Time.deltaTime);
-            if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)) <= 0.3f)
+            if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)) < 1f)
             {
                 doorClosed = true;
                 source.clip = doorCloseClip;
@@ -132,7 +135,7 @@ public class Carousel : MonoBehaviour
 
     void OpenDoor()
     {
-        if (doorOpening)
+        if (doorOpening && !doorFinishedOpening)
         {
             door.transform.Rotate(Vector3.up * doorOpenSpeed * Time.deltaTime);
             source.clip = doorOpenClip;
@@ -141,6 +144,7 @@ public class Carousel : MonoBehaviour
             {
                 doorOpening = false;
                 doorClosed = false;
+                doorFinishedOpening = true;
             }
         }
         

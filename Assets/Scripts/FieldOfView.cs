@@ -93,7 +93,6 @@ public class FieldOfView : MonoBehaviour
     {
         if (setAlpha && targetMaterial.color.a >= 0)
         {
-            Debug.Log(setAlpha);
             targetMaterial.color = Color.Lerp(targetMaterial.color, targetColor, fadeTime * Time.deltaTime);
             if (targetMaterial.color.a <= 0.01f)
             {
