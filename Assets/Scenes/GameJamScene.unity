@@ -3847,6 +3847,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 24300002, guid: 2a8ffd7e0bdee344786b69ecbd50b952, type: 2}
     - target: {fileID: 1663606406904272635, guid: da3919e66130aaf4fb9bf5de42b8ed21, type: 3}
+      propertyPath: walkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1663606406904272635, guid: da3919e66130aaf4fb9bf5de42b8ed21, type: 3}
+      propertyPath: sprintSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1663606406904272635, guid: da3919e66130aaf4fb9bf5de42b8ed21, type: 3}
       propertyPath: stepInterval
       value: 0.25
       objectReference: {fileID: 0}
