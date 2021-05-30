@@ -20,6 +20,6 @@ public class ClownTrigger : MonoBehaviour
     IEnumerator DisableObject(float time)
     {
         yield return new WaitForSeconds(time);
-        gameObject.SetActive(false);
+        clownToAnimate.gameObject.SetActive(false);
     }
 }
