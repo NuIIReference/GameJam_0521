@@ -29,12 +29,15 @@ public class FieldOfView : MonoBehaviour
 
     private GameObject currentFadeObject;
     private GameObject currentAnimatedObject;
+    private Pause pause;
+    private bool endGame = false;
 
     private void Start()
     {
         viewMesh = new Mesh();
         viewMesh.name = "ViewMesh";
         viewMeshFilter.mesh = viewMesh;
+        pause = FindObjectOfType<Pause>();
     }
 
     private void OnEnable()
@@ -94,12 +97,16 @@ public class FieldOfView : MonoBehaviour
 
                     if (target.CompareTag("Play Anim"))
                     {
-                        currentAnimatedObject = target.parent.gameObject;
-                        Animator anim = currentAnimatedObject.GetComponent<Animator>();
-                        AudioSource source = currentAnimatedObject.GetComponent<AudioSource>();
-                        anim.SetBool("playAnim", true);
-                        source.PlayOneShot(source.clip);
-                        StartCoroutine(DisableObject(2f));
+                        if (!endGame)
+                        {
+                            endGame = true;
+                            currentAnimatedObject = target.parent.gameObject;
+                            Animator anim = currentAnimatedObject.GetComponent<Animator>();
+                            AudioSource source = currentAnimatedObject.GetComponent<AudioSource>();
+                            anim.SetBool("playAnim", true);
+                            source.PlayOneShot(source.clip);
+                            StartCoroutine(DisableObject(2f));
+                        }
                     }
                 }
             }
@@ -110,6 +117,8 @@ public class FieldOfView : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         currentAnimatedObject.SetActive(false);
+        if (endGame)
+            pause.EndScreen();
     }
 
     void StepAlpha()

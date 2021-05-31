@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
@@ -9,11 +10,14 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] private GameObject creditsPanel;
+    [SerializeField] private GameObject endPanel;
 
     [SerializeField] private AudioMixer musicMixer;
     [SerializeField] private AudioMixer sfxMixer;
 
     [SerializeField] MouseLook mouseLook;
+
+    private bool endGame = false;
 
 
     private void Start()
@@ -24,7 +28,7 @@ public class Pause : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !endGame)
         {
             isPaused = !isPaused;
         }
@@ -97,5 +101,18 @@ public class Pause : MonoBehaviour
     public void Mousesensitivity(float value)
     {
         mouseLook.mouseSensitivity = value;
+    }
+
+    public void EndScreen()
+    {
+        endGame = true;
+        isPaused = true;
+        pausePanel.SetActive(false);
+        endPanel.SetActive(true);
+    }
+
+    public void EndScreenExit()
+    {
+        SceneManager.LoadScene(0);
     }
 }
