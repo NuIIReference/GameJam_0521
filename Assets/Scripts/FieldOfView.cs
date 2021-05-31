@@ -96,7 +96,9 @@ public class FieldOfView : MonoBehaviour
                     {
                         currentAnimatedObject = target.parent.gameObject;
                         Animator anim = currentAnimatedObject.GetComponent<Animator>();
+                        AudioSource source = currentAnimatedObject.GetComponent<AudioSource>();
                         anim.SetBool("playAnim", true);
+                        source.PlayOneShot(source.clip);
                         StartCoroutine(DisableObject(2f));
                     }
                 }

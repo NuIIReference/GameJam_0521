@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed = 12f;
     public float sprintSpeed = 20f;
     public float gravity = -9.81f;
-    public float jumpHeight = 3f;
     [Header("Footstep Audio Properties")]
     [Range(0f, 1f)] public float sprintStepLength;
     public float stepInterval;
@@ -35,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     //private bool isSprinting;
     private bool isWalking;
-    private bool isJumping;
 
     private CollisionFlags collisionFlags;
 
@@ -58,16 +56,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        isJumping = Input.GetButtonDown("Jump");
 
         isWalking = !Input.GetButton("Fire3");
 
         //Check if Grounded
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-        //Apply jump if grounded
-        if (isJumping && isGrounded)
-            velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
 
         StepProgressCycle(isWalking ? walkSpeed : sprintSpeed);
     }
@@ -165,6 +158,5 @@ public class PlayerMovement : MonoBehaviour
 
         stepCycle = 0f;
         nextStep = stepCycle / 2f;
-        isJumping = false;
     }
 }

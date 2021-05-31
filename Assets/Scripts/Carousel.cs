@@ -33,6 +33,7 @@ public class Carousel : MonoBehaviour
     private Vector3 screenCenter;
 
     private FlashlightFlicker flicker;
+    private FieldOfView fieldOfView;
 
     private void Start()
     {
@@ -41,6 +42,7 @@ public class Carousel : MonoBehaviour
         doorLayer = LayerMask.NameToLayer("Doors");
         screenCenter = new Vector3(Screen.width >> 1, Screen.height >> 1);
         flicker = FindObjectOfType<FlashlightFlicker>();
+        fieldOfView = FindObjectOfType<FieldOfView>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -139,6 +141,7 @@ public class Carousel : MonoBehaviour
     {
         if (doorOpening && !doorFinishedOpening)
         {
+            fieldOfView.viewRadius = 5f;
             door.transform.Rotate(Vector3.up * doorOpenSpeed * Time.deltaTime);
             source.clip = doorOpenClip;
             source.Play();
