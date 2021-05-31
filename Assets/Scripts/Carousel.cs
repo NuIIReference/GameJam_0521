@@ -66,7 +66,6 @@ public class Carousel : MonoBehaviour
     {
         if (startSpin)
         {
-            Debug.Log(Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)));
             if (!doorClosed)
                 door.transform.Rotate(-Vector3.up * doorCloseSpeed * Time.deltaTime);
             if (Quaternion.Angle(door.transform.localRotation, Quaternion.Euler(0, -90, 0)) < 1f)
@@ -104,7 +103,6 @@ public class Carousel : MonoBehaviour
                     {
                         correctDoor = false;
                     }
-                    Debug.Log(correctDoor);
                 }
             }
             else if (currentTarget != null)
@@ -152,6 +150,5 @@ public class Carousel : MonoBehaviour
                 doorFinishedOpening = true;
             }
         }
-        
     }
 }
